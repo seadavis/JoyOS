@@ -11,7 +11,7 @@ call print_string
 jmp $
 
 BOOT_STRING:
-    db 'Booting JoyOS',0
+    db 'Booting JoyOS 1',0
 
 BOOT_MSG_2:
     db 'Booted JoyOS', 0
